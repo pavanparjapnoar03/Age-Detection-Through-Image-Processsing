@@ -74,3 +74,8 @@ while cv2.waitKey(1) < 0:
 
         cv2.putText(resultImg, f'{gender}, {age}', (facebox[0], facebox[1]-5), cv2.FONT_HERSHEY_DUPLEX, 0.7, (255,248,220), 1, cv2.LINE_AA)
         cv2.imshow("Detecting age and gender", resultImg)
+        
+        
+        
+        #COMMAND TO DETECT AGE THROUGH IMAGE : python file.py --image <image name.type>
+        #COMMAND TO DETECT LIVE WEBCAM : python file.py
